@@ -8,9 +8,6 @@ abstract class Animal {
     Animal(String animal){
         this.animal = animal;
     }
-    public String getAnimal() {
-        return animal;
-    }
 
 }
 

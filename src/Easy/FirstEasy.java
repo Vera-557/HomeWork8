@@ -13,7 +13,6 @@ class FirstEasy {
         Animal cat = new Cat("Cat");
         Animal rat = new Rat("Mouse");
        zooMove(dog, cat, rat);
-
     }
     protected static void zooMove(Animal... animals){
         for (Animal animal : animals) {
@@ -24,7 +23,6 @@ class FirstEasy {
 
 }
 class Dog extends Animal{
-
     Dog(String animal) {
         super(animal);
     }
